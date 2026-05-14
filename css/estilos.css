@@ -31,3 +31,14 @@ nav li{
 nav a{
     color: white;
 }
+.whatsapp {
+  position: fixed;  
+  bottom: 80px;     
+  right: 80px;      
+}
+
+.whatsapp img {
+  width: 60px;   
+  height: 60px;
+  border-radius: 50px;  
+}
