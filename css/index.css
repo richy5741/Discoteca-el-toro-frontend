@@ -24,9 +24,9 @@ nav ul{
     list-style: none;
     padding: 0;
     font-size:20px;
-    
-    
 }
+
+
 nav li{
     margin: 0 15px;
   
@@ -38,7 +38,7 @@ nav a{
 .whatsapp {
   position: fixed;  
   bottom: 80px;     
-  right: 80px;      
+  right: 80px;
 }
 
 .whatsapp img {
