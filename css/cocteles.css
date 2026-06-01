@@ -1,8 +1,8 @@
 *{
   margin:0;
   padding:0;
-  box-sizing: border-box;
 }
+
 .contenedor-cocteles{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,19 +10,14 @@
     padding: 20px;
 }
 
-.carta-cocteles{
-    text-align: center;
-}
-
 .coctel{
-    text-align: center;
     position: relative;
 }
 
 .coctel img{
-    height: 250px;
     width: 100%;
-    object-fit: cover;
+    height: 250px;
+    
 }
 
 .coctel p{
@@ -31,21 +26,14 @@
     right: 10px;
     background: black;
     color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
 }
 
 .coctel:hover{
     transform: scale(1.05);
-    transition: 0.3s;
-    cursor: pointer;
 }
 
 @media (max-width: 768px){
     .contenedor-cocteles{
         grid-template-columns: 1fr;
-    }
-    .coctel img{
-        height: 180px;
     }
 }
