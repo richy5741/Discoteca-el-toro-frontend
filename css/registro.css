@@ -3,17 +3,54 @@
    margin: 0;
    padding: 0;
 }
-.padre1{
-    background: lightblue;
-    width: 20%;
-    aspect-ratio: 1/1;
-    border-radius: 10px;
-    margin: 0 auto;
+h1 {
+    
+    display: block;
+    padding: 10px 18px;
+    color: white;
+    text-shadow: 5px 5px 8px goldenrod;
+    border: 5px solid goldenrod;
+    background: black;
+    border-radius: 6px;
+    text-align: center;
+}
+
+body {
+    background-image: url('../img/fondoRegistro.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    margin: 0;
+    min-height: 100vh;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1%;
-    gap: 10px;
-    
+    min-height: 100vh;
+}
+.recuadro1 {
+    background: black;
+    padding: 30px;
+    border-radius: 10px;
+    width: 320px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+a {
+   
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 10px;
+
+    background: black;
+    color: white;
+    border: 3px solid goldenrod;
+    border-radius: 6px;
+
+    text-decoration: none;
+    text-shadow: 2px 2px 4px goldenrod;
 }
