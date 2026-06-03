@@ -3,7 +3,7 @@
   padding:0;
 }
 
- h1 {
+ h1 ,h3{
     
     display: block;
     padding: 10px 18px;
@@ -14,7 +14,29 @@
     border-radius: 6px;
     text-align: center;
 }
+h4{
+    display: block;
+    padding: 8px 12px;
+    color: white;
+    background: black;
+    border: 3px solid goldenrod;
+    border-radius: 6px;
+    text-align: center;
+
+    text-shadow: 2px 2px 4px goldenrod;
+}
     
+ul{
+    list-style: none;
+    padding: 10px 18px;
+    color: white;
+    background: black;
+    border: 3px solid goldenrod;
+    border-radius: 6px;
+    text-align: center;
+
+    text-shadow: 2px 2px 4px goldenrod;
+}
 
 body {
     background-image: url('../img/golden.jpg');
@@ -27,10 +49,12 @@ body {
     min-height: 100vh;
 }
 .contenedor-cocteles{
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     padding: 20px;
+    
 }
 
 .coctel{
@@ -42,16 +66,39 @@ body {
     height: 250px;
     display: block;
     object-fit: cover;
+
+    border: 5px solid black;
+    border-radius: 6px;
 }
 
 .coctel p{
     position: absolute;
     bottom: 10px;
     right: 10px;
+
+    padding: 8px 12px;
+    color: white;
+    background: black;
+    border: 3px solid goldenrod;
+    border-radius: 6px;
+    text-align: center;
+
+    text-shadow: 2px 2px 4px goldenrod;
+}
+a {
+   
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 10px;
+
     background: black;
     color: white;
-}
+    border: 3px solid goldenrod;
+    border-radius: 6px;
 
+    text-decoration: none;
+    text-shadow: 2px 2px 4px goldenrod;
+}
 .coctel:hover{
     transform: scale(1.05);
 }
